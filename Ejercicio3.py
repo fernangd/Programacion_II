@@ -68,3 +68,36 @@ print("\n=== OPERACIONES MATEMÁTICAS ===")
 suma = sum(numeros)
 promedio = suma / len(numeros)
 print(f"Suma: {suma}, Promedio: {promedio:.2f}")
+
+
+
+import numpy as np
+
+#print("¡NumPy funciona correctamente!")
+#print(f"Versión de NumPy: {np.__version__}")
+
+#pip install numpy
+import numpy as np
+
+# Con listas normales (como en tu ejercicio)
+numeros_lista = [20, 10, 50, 30, 40]
+suma = sum(numeros_lista)  # Necesitas función sum()
+print("Suma con listas: ", suma)
+print()
+
+# Con NumPy
+numeros_array = np.array([20, 10, 50, 30, 40])
+print(f"Arreglo usando NumPy: {numeros_array}")
+suma = numeros_array.sum()  # Método del array
+print("Suma con NumPy: ", suma)
+# O también:
+suma = np.sum(numeros_array)
+
+# Operaciones vectorizadas (muy eficientes)
+doble = numeros_array * 2  # Multiplica todos por 2
+cuadrados = numeros_array ** 2  # Eleva todos al cuadrado
+
+print(f"Arreglo*2: {doble}")
+print(f"Arreglo^2: {cuadrados}")
+
+
