@@ -79,9 +79,9 @@ import numpy as np
 #pip install numpy
 import numpy as np
 
-# Con listas normales (como en tu ejercicio)
+# Con listas normales
 numeros_lista = [20, 10, 50, 30, 40]
-suma = sum(numeros_lista)  # Necesitas función sum()
+suma = sum(numeros_lista)  # Se necesita función sum()
 print("Suma con listas: ", suma)
 print()
 
@@ -90,7 +90,7 @@ numeros_array = np.array([20, 10, 50, 30, 40])
 print(f"Arreglo usando NumPy: {numeros_array}")
 suma = numeros_array.sum()  # Método del array
 print("Suma con NumPy: ", suma)
-# O también:
+# o también:
 suma = np.sum(numeros_array)
 
 # Operaciones vectorizadas (muy eficientes)
@@ -99,5 +99,6 @@ cuadrados = numeros_array ** 2  # Eleva todos al cuadrado
 
 print(f"Arreglo*2: {doble}")
 print(f"Arreglo^2: {cuadrados}")
+
 
 
