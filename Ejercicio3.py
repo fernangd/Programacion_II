@@ -77,7 +77,6 @@ import numpy as np
 #print(f"Versión de NumPy: {np.__version__}")
 
 #pip install numpy
-import numpy as np
 
 # Con listas normales
 numeros_lista = [20, 10, 50, 30, 40]
@@ -99,6 +98,7 @@ cuadrados = numeros_array ** 2  # Eleva todos al cuadrado
 
 print(f"Arreglo*2: {doble}")
 print(f"Arreglo^2: {cuadrados}")
+
 
 
 
